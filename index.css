@@ -26,6 +26,12 @@ body{
     
     margin-top: 80px;
 }
+.textTop{
+    color: #242F51;
+}
+.text2{
+    color: rgb(71, 71, 71);
+}
 .miniboxs{
     height: 260px;
     width: 340px;
@@ -37,10 +43,12 @@ body{
     margin-left: 120px;
 }
 .text{
-    font-size:25px ;
+    font-size:22px ;
+    margin-bottom: 10px;
 }
 .textInBox{
     font-size: 18px;
+    color: rgb(71, 71, 71)
 }
 .bigSmoke{
     display: flex;
