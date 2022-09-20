@@ -1,0 +1,77 @@
+
+
+
+
+
+
+
+html{
+    height: 100%;
+    font-family: 'Fredoka', sans-serif;
+font-family: 'Hammersmith One', sans-serif;
+font-family: 'Playfair Display', serif;
+font-family: 'Poppins', sans-serif;
+}
+body{
+    height: 100%;
+}
+.all{
+    height: 100%;
+}
+.ourapp{
+  margin-top: 0%;
+}
+.box1,.box2,.box3{
+    
+    
+    margin-top: 80px;
+}
+.miniboxs{
+    height: 260px;
+    width: 340px;
+    margin: 12.5px;
+   
+}
+.img{
+    width: 100px;
+    margin-left: 120px;
+}
+.text{
+    font-size:25px ;
+}
+.textInBox{
+    font-size: 18px;
+}
+.bigSmoke{
+    display: flex;
+    justify-content: center;
+}
+
+@media screen and (max-width: 1279px) {
+    .all2{
+        display: flex;
+        justify-content: center;
+
+    }
+    .bigSmoke{
+        display: block;
+       
+    }
+    .box1,.box2,.box3{
+        display: flex;
+        margin-top: 80px;
+    }
+}
+@media screen and (max-width: 768px) {
+    .all2{
+        display: flex;
+        justify-content: center;
+
+    }
+    .box1,.box2,.box3{
+        display: block;
+        margin-top: 80px;
+        
+    }
+}
+
