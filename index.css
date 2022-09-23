@@ -1,16 +1,5 @@
-
-
-
-
-
-
-
 html{
     height: 100%;
-    font-family: 'Fredoka', sans-serif;
-font-family: 'Hammersmith One', sans-serif;
-font-family: 'Playfair Display', serif;
-font-family: 'Poppins', sans-serif;
 }
 body{
     height: 100%;
@@ -19,67 +8,87 @@ body{
     height: 100%;
 }
 .ourapp{
-  margin-top: 0%;
-}
-.box1,.box2,.box3{
-    
-    
-    margin-top: 80px;
+    margin-top: -10px;
+    text-align: center;
+    font-weight: bold;
+    color: #242F51;
+    font-family: 'Fredoka', sans-serif;
+    font-family: 'Hammersmith One', sans-serif;
+    font-family: 'Playfair Display', serif;
+    font-family: 'Poppins', sans-serif;
 }
 .textTop{
+    text-align: center;
+    font-weight: bold;
     color: #242F51;
+    font-family: 'Fredoka', sans-serif;
+    font-family: 'Hammersmith One', sans-serif;
+    font-family: 'Playfair Display', serif;
+    font-family: 'Poppins', sans-serif;
 }
 .text2{
+    text-align: center;
     color: rgb(71, 71, 71);
+    font-family: 'Fredoka', sans-serif;
+    font-family: 'Hammersmith One', sans-serif;
+    font-family: 'Playfair Display', serif;
+    font-family: 'Poppins', sans-serif;
+}
+.bold{
+    font-weight: bold;
 }
 .miniboxs{
     height: 260px;
     width: 340px;
     margin: 12.5px;
-   
 }
 .img{
     width: 100px;
     margin-left: 120px;
 }
 .text{
+    display: flex;
+    justify-content: center;
     font-size:22px ;
     margin-bottom: 10px;
+    font-family: 'Fredoka', sans-serif;
+    font-family: 'Hammersmith One', sans-serif;
+    font-family: 'Playfair Display', serif;
+    font-family: 'Poppins', sans-serif;
 }
 .textInBox{
+    text-align: center;
     font-size: 18px;
-    color: rgb(71, 71, 71)
+    color: rgb(71, 71, 71);
+    font-family: 'Fredoka', sans-serif;
+    font-family: 'Hammersmith One', sans-serif;
+    font-family: 'Playfair Display', serif;
+    font-family: 'Poppins', sans-serif;
 }
-.bigSmoke{
+.threeBoxs{
+    margin-top: 80px;
     display: flex;
     justify-content: center;
 }
-
 @media screen and (max-width: 1279px) {
     .all2{
         display: flex;
         justify-content: center;
-
     }
-    .bigSmoke{
-        display: block;
-       
+    .threeBoxs{
+        display: block; 
     }
     .box1,.box2,.box3{
-        display: flex;
-        margin-top: 80px;
+        display: flex; 
     }
 }
 @media screen and (max-width: 768px) {
     .all2{
         display: flex;
         justify-content: center;
-
     }
     .box1,.box2,.box3{
         display: block;
-        margin-top: 80px;
-        
     }
 }
 
